@@ -1,0 +1,12 @@
+.sketch {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display:inline-block;
+}
+.sketch-on {
+    z-index: 1;
+}
+.sketch-off {
+    z-index: -1;
+}
