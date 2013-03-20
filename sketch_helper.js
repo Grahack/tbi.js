@@ -1,3 +1,11 @@
+function sketch_reset() {
+    // https://github.com/intridea/sketch.js/issues/3
+    var canvas = $('#sketch').get(0);
+    var context = canvas.getContext('2d');
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    $('#sketch').sketch('actions',[]);
+}
+
 function sketch_switch() {
     if ($('#sketch').hasClass('sketch-off')) {
         $('#sketch').removeClass('sketch-off').addClass('sketch-on');
