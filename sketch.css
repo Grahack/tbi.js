@@ -2,11 +2,20 @@
     position: absolute;
     top: 0%;
     left: 0%;
-    display:inline-block;
+    display: inline-block;
 }
 .sketch-on {
     z-index: 1;
 }
 .sketch-off {
     z-index: -1;
+}
+#sketch-switch {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+    background-color: green;
 }
