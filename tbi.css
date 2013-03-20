@@ -1,15 +1,15 @@
-.sketch {
+.tbi {
     position: absolute;
     top: 0%;
     left: 0%;
 }
-.sketch-on {
+.tbi-on {
     z-index: 1;
 }
-.sketch-off {
+.tbi-off {
     z-index: -1;
 }
-.sketch-button {
+.tbi-button {
     position: fixed;
     right: 0px;
     width: 10px;
@@ -19,15 +19,15 @@
     border-width: 1px;
     border-color: #999;
 }
-#sketch-switch {
+#tbi-switch {
     top: 0px;
 }
-.sketch-switch-off {
+.tbi-switch-off {
     background-color: #7f7;
 }
-.sketch-switch-on {
+.tbi-switch-on {
     background-color: #f44;
 }
-#sketch-reset {
+#tbi-reset {
     top: 10px;
 }
